@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MiniShop</title>
+<style>
+body {
+margin:0;
+}
+header {
+background-color: black;
+color: white;
+padding: 1rem 2rem;
+display: flex;
+justify-content: space-around;
+align-items:center;
+}
+nav a {
+color: white;
+margin-left: 1rem;
+text-decoration: none;
+}
+.hero {
+background:center
+textcolor: white;
+padding: 4rem 2rem;
+}
+.hero h1 {
+font-size: 2.5rem;
+}
+.hero button {
+padding: 0.8rem 1.5rem;
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 1rem;
+margin-top: 1rem;
+cursor: pointer;
+}
+.section {
+padding: 2rem;
+}
+.section h2 {
+margin-bottom: 1rem;
+}
+.categories, .products {
+display: flex;
+gap: 1rem;
+flex-wrap: wrap;
+}
+.categories button {
+padding: 1rem 2rem;border: 2px solid black;
+background: none;
+cursor: pointer;
+font-size: 1rem;
+border-radius: 8px;
+}
+.product-card {
+border: 1px solid white;
+padding: 1rem;
+border-radius: 10px;
+text-align: center;
+width: 200px;
+}
+.product-card img {
+width: 100%;
+height: auto;
+margin-bottom: 1rem;
+}
+.product-card button {
+margin-top: 0.5rem;
+padding: 0.5rem 1rem;
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+footer {
+backgroundcolor: white;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+<header>
+<div> MiniShop</div>
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Cart</a>
+<a href="#">Login</a>
+</nav>
+</header>
+<section class="section">
+<center>
+<h1>Welcome to MiniShop</h1>
+<p>Best products. Lowest prices.</p>
+<button>Shop Now</button>
+</center>
+</section>
+<section class="section">
+<h2>Categories</h2>
+<div class="categories">
+<button>Electronics</button>
+<button>Clothing</button><button>Books</button>
+</div>
+</section>
+<section class="section">
+<h2>Popular Products</h2>
+<div class="products">
+<div class="product-card">
+<img src=https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-
+4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=lauren-mancke-aOC7TSLb1o8-
+unsplash.jpg alt="Laptop">
+<h3>Laptop</h3>
+<p>₹48399</p>
+<button>Add to Cart</button>
+</div>
+<div class="product-card">
+<img src=https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-
+4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=faith-yarn-Wr0TpKqf26s-unsplash.jpg
+alt="T-Shirt">
+<h3>T-Shirt</h3>
+<p>₹799</p>
+<button>Add to Cart</button>
+</div>
+<div class="product-card">
+<img src=https://images.unsplash.com/photo-1650178284536-2d6dff47f903?ixlib=rb-
+4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=nik-iqDq3QVDzbQ-unsplash.jpg
+alt="Book">
+<h3>Book</h3>
+<p>₹299</p>
+<button>Add to Cart</button>
+</div>
+</div></section>
+<footer>
+&copy; 2025 MiniShop: All rights reserved.
+</footer>
+</body>
+</html>
